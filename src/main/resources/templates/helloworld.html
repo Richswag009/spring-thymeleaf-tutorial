@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmins="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/css/app.css}"/>
+</head>
+<body>
+
+    <p class="funny" th:text="'Time on the server ' + ${date}"></p>
+    <h1> yes its working</h1>
+    <!---->
+    <h1>Hello world of Spring</h1>
+    <br><br>
+    <p>Student name ; <span th:text="${param.studentName}"></span></p>
+    <p>The Message: <span th:text="${message}"></span></p>
+
+</body>
+</html>
